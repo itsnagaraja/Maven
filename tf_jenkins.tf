@@ -1,6 +1,6 @@
 # AWS Provider information
 provider "aws" {
-    region = "${var.region}"
+    region = "us-east-2"
     shared_credentials_file = "/usr_share/.aws/credentials"
 }
 # New VPC to host the subnets for AppServer
